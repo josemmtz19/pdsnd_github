@@ -8,6 +8,17 @@ February 5, 2022.
 ### Description
 This is a user-interactive project in which 2017 US bikeshare data is leveraged to produce and output detailed statistics to the user. The following three cities are being used to collect this data - Chicago, New York City, and Washington. The user can drill down into deeper statistics and filter the data by month and day.
 
+NOTE: This is randomly selected data ranging from January 2017-June 2017. The following data is being pulled from each city:  
+* Start Time  
+* End Time  
+* Trip Duration  
+* Start Station  
+* End Station  
+* User Type  
+Chicago and New York City have the following additional data:  
+* Gender  
+* Birth Year
+
 ### Files used
 bikeshare.py
 chicago.csv
