@@ -24,7 +24,7 @@ def get_filters():
             print("{}, it is!\n".format(city.title()))
             break
         else:
-            print("That's not a valid city! Let's try this again.")
+            print("Sorry, that's not a valid city. Please try again.")
     
 
     # get user input for month (all, january, february, ... , june)
@@ -37,7 +37,7 @@ def get_filters():
                 print("Great! Let\'s examine {} a bit closer!\n".format(month.title()))
             break
         else:
-            print("That's not a valid month! Let's try this again.")
+            print("Sorry, that's not a valid choice. Please try again.")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while(True):
@@ -49,7 +49,7 @@ def get_filters():
                 print("Great! Let\'s focus our attention towards {}!\n".format(day.title()))
             break
         else:
-            print("That's not a valid day! Let's try this again.")
+            print("Sorry, that's not a proper selection. Please try again.")
 
     print('-'*40)
     return city, month, day
