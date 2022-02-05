@@ -19,13 +19,13 @@ Chicago and New York City have the following additional data:
 * Gender  
 * Birth Year
 
-### Files used
+### Files Used
 bikeshare.py
 chicago.csv
 new_york_city.csv
 washington.csv
 
-### Credits
+### Credits/Cited Sources
 Converting pandas dataframe to numpy: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html  
 Finding sum of numpy array: https://numpy.org/doc/stable/reference/generated/numpy.sum.html  
 Round numpy output: https://numpy.org/devdocs/reference/generated/numpy.around.html  
