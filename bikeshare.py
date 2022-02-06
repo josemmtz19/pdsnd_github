@@ -17,6 +17,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
+
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("Which city would you like to explore - Chicago, New York City, or Washington?\n").lower()
@@ -26,7 +27,6 @@ def get_filters():
         else:
             print("Sorry, that's not a valid city. Please try again.")
     
-
     # get user input for month (all, january, february, ... , june)
     while(True):
         month = input("Which month? January, February, March, April, May, June, or all?\n").lower()
@@ -82,7 +82,6 @@ def load_data(city, month, day):
         df = df[df['month'] == month.title()]
     if(day != 'all'):
         df = df[df['day'] == day.title()]
-
     return df
 
 
@@ -175,9 +174,9 @@ def user_stats(df):
     except KeyError:
         print("There are no birth year statistics for this dataset.")
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
 
 def show_data(df):
     display_data = input("Would you like to see 5 rows of data for this particular dataset? Please reply with yes or no.\n").lower()
